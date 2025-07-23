@@ -6,12 +6,12 @@ import pytz
 from datetime import datetime
 
 # === Load model dan komponen ===
-model = joblib.load('Ridge_Classifier_Original_model_Perfect Piano.pkl')
+model = joblib.load('Logistic_Regression_Original_model_Perfect Piano.pkl')
 vectorizer = joblib.load('tfidf_vectorizer_Perfect Piano.pkl')
 label_encoder = joblib.load('label_encoder_Perfect Piano.pkl')
 
 # === Judul Aplikasi ===
-st.title("🎵 Aplikasi Analisis Sentimen – Perfect Piano")
+st.title("🎹 Aplikasi Analisis Sentimen – Perfect Piano")
 
 # === Pilih Mode Input ===
 st.header("📌 Pilih Metode Input")
