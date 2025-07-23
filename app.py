@@ -7,8 +7,8 @@ from datetime import datetime
 
 # === Load model dan komponen ===
 model = joblib.load('Ridge_Classifier_Original_model_Perfect_Piano.pkl')
-vectorizer = joblib.load('tfidf_vectorizer_Perfect Piano.pkl')
-label_encoder = joblib.load('label_encoder_Perfect Piano.pkl')
+vectorizer = joblib.load('tfidf_vectorizer_Perfect_Piano.pkl')
+label_encoder = joblib.load('label_encoder_Perfect_Piano.pkl')
 
 # === Judul Aplikasi ===
 st.title("🎹 Aplikasi Analisis Sentimen – Perfect Piano")
