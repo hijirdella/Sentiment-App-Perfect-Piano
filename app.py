@@ -8,7 +8,7 @@ import numpy as np
 from scipy import sparse
 
 # === Load model dan komponen ===
-model = joblib.load('Ridge_Classifier_Original_model_Perfect_Piano.pkl')
+model = joblib.load('XGBoost_Original_model_Perfect_Piano.pkl')
 vectorizer = joblib.load('tfidf_vectorizer_Perfect_Piano.pkl')
 label_encoder = joblib.load('label_encoder_Perfect_Piano.pkl')
 
